@@ -1,0 +1,33 @@
+<header>
+  <h1>API Dashboard</h1>
+</header>
+
+<body>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <!--add sorting to columes-->
+      <tr>
+        <th>Name</th>
+        <th>Hits</th>
+        <th>Successful Responses</th>
+        <th>Error Responses</th>
+        <th>Error Rate</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{#each model as |apis|}}
+      <tr>
+        <th>{{apis.name}}</th>
+        <th>{{apis.hits}}</th>
+        <th>{{apis.success}}</th>
+        <th>{{apis.error}}</th>
+        <th>{{apis.errorRate}}</th>
+      </tr>
+    {{/each}}
+    </tbody>
+  </table>
+</body>
+
+<footer>
+
+</footer>
