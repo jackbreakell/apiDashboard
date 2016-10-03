@@ -13,19 +13,37 @@ let apis = [{
     error: 1,
     errorRate: 10
   }, {
-    name: "api2",
+    name: "api3",
     hits: 10,
     success: 9,
     error: 1,
     errorRate: 10
   }, {
-    name: "api2",
+    name: "api4",
     hits: 10,
     success: 9,
     error: 1,
     errorRate: 10
   }, {
-    name: "api2",
+    name: "api5",
+    hits: 10,
+    success: 9,
+    error: 1,
+    errorRate: 10
+  }, {
+    name: "api6",
+    hits: 10,
+    success: 9,
+    error: 1,
+    errorRate: 10
+  }, {
+    name: "api7",
+    hits: 10,
+    success: 9,
+    error: 1,
+    errorRate: 10
+  }, {
+    name: "api8",
     hits: 10,
     success: 9,
     error: 1,

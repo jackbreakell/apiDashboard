@@ -2,11 +2,30 @@
 @import 'bootstrap';
 
 header {
-  padding-top: 20px;
-  padding-left: 20px;
+
 }
 
-body {
+.navbar {
+  background-color: #EEE;
+}
+
+a {
+  color: #000000;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+h1 {
+  padding: 20px;
+  color: #333f48;
+  font-weight: 300;
+}
+
+.content {
   padding: 20px;
 }
 
@@ -17,4 +36,7 @@ footer {
   bottom: 0;
   left: 0;
   position: fixed;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
 }
