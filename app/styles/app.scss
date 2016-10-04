@@ -7,7 +7,15 @@ header {
 
 .navbar {
   background-color: #EEE;
-  padding: 0px;
+  height: 23px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+}
+
+#main-navbar {
+  padding-left: 0px;
 }
 
 a {
@@ -20,8 +28,26 @@ a {
   padding-left: 10px;
 }
 
+.footerLogo {
+  right: 0px;
+  bottom: 0px;
+  position: fixed;
+}
+
+.logoFoot {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.bgC {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
 h1 {
   padding: 20px;
+  padding-bottom: 0px;
   color: #333f48;
   font-weight: 300;
 }
@@ -31,7 +57,7 @@ h1 {
 }
 
 footer {
-  height: 250px;
+  height: 350px;
   width: 100%;
   background-color: #005EB8;
   bottom: 0;
